@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://www.openaire.eu/cerif-profile/1.2/ https://www.openaire.eu/schema/cris/current/openaire-cerif-profile.xsd">
+  <responseDate>2025-09-26T15:43:31Z</responseDate>
+  <request metadataPrefix="oai_cerif_openaire" verb="ListRecords" set="openaire_cris_publications"></request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>dacd247f-4d4c-4555-988f-965686939648</identifier>
+        <datestamp>2025-01-28T15:17:34Z</datestamp>
+        <setSpec>openaire_cris_publications</setSpec>
+      </header>
+      <metadata>
+        <cerif:Publication xmlns:sc="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Service_Compatibility" xmlns:ar="http://purl.org/coar/access_right" xmlns:pubt="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types" xmlns:prot="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types" xmlns:funt="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types" xmlns:patt="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types" xmlns:cerif="https://www.openaire.eu/cerif-profile/1.2/" id="dacd247f-4d4c-4555-988f-965686939648">
+          <pubt:Type xmlns:pure="https://pure.elsevier.com/schema/extensions/oai_cerif_openaire" pure:peerReviewed="true" pure:publicationCategory="/dk/atira/pure/researchoutput/category/scientific">http://purl.org/coar/resource_type/c_5794</pubt:Type>
+          <cerif:Language>en</cerif:Language>
+          <cerif:Title xml:lang="en">Soil Investigations As A Cornerstone For Geotechnical Design Of Liquefaction Mitigation Measures Below Levees</cerif:Title>
+          <cerif:Subtitle xml:lang="en"></cerif:Subtitle>
+          <cerif:PartOf>
+            <cerif:Publication>
+              <pubt:Type>http://purl.org/coar/resource_type/c_0640</pubt:Type>
+              <cerif:Title xml:lang="en">Proceedings of the 4th European Regional Conference of IAEG (EUROENGEO 2024)</cerif:Title>
+            </cerif:Publication>
+          </cerif:PartOf>
+          <cerif:PublicationDate>2024</cerif:PublicationDate>
+          <cerif:DOI>10.5592/CO/EUROENGEO.2024.257</cerif:DOI>
+          <cerif:URL>https://research.tudelft.nl/en/publications/dacd247f-4d4c-4555-988f-965686939648</cerif:URL>
+          <cerif:Authors>
+            <cerif:Author>
+              <cerif:Person id="2c8c4f38-ae6a-4522-8dca-e4a00ab5a10b">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Bačić</cerif:FamilyNames>
+                  <cerif:FirstNames>Mario</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="b8627e2e-36a3-488f-b049-7b6d415b0b32">
+                  <cerif:Acronym>UniZg</cerif:Acronym>
+                  <cerif:Name xml:lang="en">University of Zagreb</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="27b4ecd0-3581-422e-98bf-d44b79a465bc">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Andačić</cerif:FamilyNames>
+                  <cerif:FirstNames>Katarina</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="db926fbf-87cc-4140-88d4-017b2f09d70c">
+                  <cerif:Name xml:lang="en">Slovenian National Building and Civil Engineering Institute</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="7c200bba-0509-4b2e-9474-3717083736c5">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Gavin</cerif:FamilyNames>
+                  <cerif:FirstNames>Kenneth</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="e369f372-58aa-497e-ab80-5d26ba471d96">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Urumović</cerif:FamilyNames>
+                  <cerif:FirstNames>Kosta</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="fa210704-dfa8-4e9b-9de0-d4fe7b8794e3">
+                  <cerif:Name xml:lang="en">Croatian Geological Survey</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+          </cerif:Authors>
+          <cerif:Publishers>
+            <cerif:Publisher>
+              <cerif:OrgUnit>
+                <cerif:Name xml:lang="en">International Assosiation for Engineering Geology (IAEG)</cerif:Name>
+              </cerif:OrgUnit>
+            </cerif:Publisher>
+          </cerif:Publishers>
+          <cerif:Keyword xml:lang="en">liquefaction</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">levee</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">soil investigation works</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">remediation design</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">LeveeLiq project</cerif:Keyword>
+          <cerif:Abstract xml:lang="en">Levees are particularly susceptible to damage during seismic events, and failure mechanisms can involve large deformations due to soil liquefaction within and below the levee. To assess the liquefaction potential below the levees, and for the purpose of planning liquefaction mitigation measures, in-situ and/or laboratory investigations must be carried out. This is a challenge, especially due to the great length of the levees, and the limited financial and time resources available for carrying out the investigations. This paper provides an insight into two examples of investigation work carried out to determine the liquefaction potential and gives an overview of the design measures to remediate the underlying soil. These are the Pušćine levee in Međimurje County, which was reconstructed due to insufficient height in terms of flooding, and the Hrastelnica levee in Sisak-Moslavina County, which was damaged in the 2020 Petrinja earthquake. While numerous dynamic penetration tests were carried out on the Pušćine levee to assess the liquefaction potential, Hrastelnica levee assessments relied on the static (cone) penetration tests. The paper further discusses step forward in mapping the spatial variability of liquefaction potential under the levees, through the efforts of ongoing LeveeLiq project.</cerif:Abstract>
+          <cerif:Status scheme="/dk/atira/pure/researchoutput/status">published</cerif:Status>
+          <cerif:PresentedAt>
+            <cerif:Event>
+              <cerif:Acronym>EUROENGEO 2024</cerif:Acronym>
+              <cerif:Name xml:lang="en">EUROENGEO 2024: 4th European Regional Conference of IAEG</cerif:Name>
+              <cerif:Place>Hotel Dubrovnik Palace</cerif:Place>
+              <cerif:Country>hr</cerif:Country>
+              <cerif:StartDate>2024-10-08</cerif:StartDate>
+              <cerif:EndDate>2024-10-12</cerif:EndDate>
+            </cerif:Event>
+          </cerif:PresentedAt>
+          <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+          <cerif:FileLocations>
+            <cerif:Medium>
+              <cerif:Type scheme="/dk/atira/pure/researchoutput/electronicversion/versiontype">publishersversion</cerif:Type>
+              <cerif:Title xml:lang="en">257.pdf</cerif:Title>
+              <cerif:URI>https://research.tudelft.nl/files/227873218/257.pdf</cerif:URI>
+              <cerif:MimeType>application/pdf</cerif:MimeType>
+              <cerif:Size>1578873</cerif:Size>
+              <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+            </cerif:Medium>
+          </cerif:FileLocations>
+        </cerif:Publication>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0a724067-e44f-468d-b38e-b7cac8f9d36a</identifier>
+        <datestamp>2024-11-14T15:34:11Z</datestamp>
+        <setSpec>openaire_cris_publications</setSpec>
+      </header>
+      <metadata>
+        <cerif:Publication xmlns:sc="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Service_Compatibility" xmlns:ar="http://purl.org/coar/access_right" xmlns:pubt="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types" xmlns:prot="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types" xmlns:funt="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types" xmlns:patt="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types" xmlns:cerif="https://www.openaire.eu/cerif-profile/1.2/" id="0a724067-e44f-468d-b38e-b7cac8f9d36a">
+          <pubt:Type xmlns:pure="https://pure.elsevier.com/schema/extensions/oai_cerif_openaire" pure:peerReviewed="true" pure:publicationCategory="/dk/atira/pure/researchoutput/category/scientific">http://purl.org/coar/resource_type/c_5794</pubt:Type>
+          <cerif:Language>en</cerif:Language>
+          <cerif:Title xml:lang="en">Characterizing the CPT response and particle size distribution of fluvially deposited Pleistocene sand in the Netherlands</cerif:Title>
+          <cerif:Subtitle xml:lang="en"></cerif:Subtitle>
+          <cerif:PartOf>
+            <cerif:Publication>
+              <pubt:Type>http://purl.org/coar/resource_type/c_0640</pubt:Type>
+              <cerif:Title xml:lang="en">Proceedings of the 4th European Regional Conference of IAEG (EUROENGEO 2024)</cerif:Title>
+            </cerif:Publication>
+          </cerif:PartOf>
+          <cerif:PublicationDate>2024</cerif:PublicationDate>
+          <cerif:DOI>10.5592/CO/EUROENGEO.2024.266</cerif:DOI>
+          <cerif:URL>https://research.tudelft.nl/en/publications/0a724067-e44f-468d-b38e-b7cac8f9d36a</cerif:URL>
+          <cerif:Authors>
+            <cerif:Author>
+              <cerif:Person id="9e0223ff-69c4-4a12-a59f-a3f378aa109a">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>van Aarle</cerif:FamilyNames>
+                  <cerif:FirstNames>Fenna</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="9457f6d0-b9be-47d8-b3c4-54706af9eedd">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Duffy</cerif:FamilyNames>
+                  <cerif:FirstNames>Kevin</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="48e94c3a-b2a7-4c28-8e76-f0f716ea6511">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Koster</cerif:FamilyNames>
+                  <cerif:FirstNames>Kay</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="0d2a9711-4143-4e95-867a-51716ab37a5a">
+                  <cerif:Acronym>GDN</cerif:Acronym>
+                  <cerif:Name xml:lang="en">TNO - Geological Survey of the Netherlands</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="2ce2392b-0027-4493-a5de-1f3ba15df442">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Ngan-Tillard</cerif:FamilyNames>
+                  <cerif:FirstNames>Dominique</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="7d6f3b30-f735-42be-8878-dd5494116b5d">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Harting</cerif:FamilyNames>
+                  <cerif:FirstNames>Ronald</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="0d2a9711-4143-4e95-867a-51716ab37a5a">
+                  <cerif:Acronym>GDN</cerif:Acronym>
+                  <cerif:Name xml:lang="en">TNO - Geological Survey of the Netherlands</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="cb3df4dd-e15b-4b8f-8192-0bd0877d05d5">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Busschers</cerif:FamilyNames>
+                  <cerif:FirstNames>Freek</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="0d2a9711-4143-4e95-867a-51716ab37a5a">
+                  <cerif:Acronym>GDN</cerif:Acronym>
+                  <cerif:Name xml:lang="en">TNO - Geological Survey of the Netherlands</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+          </cerif:Authors>
+          <cerif:Publishers>
+            <cerif:Publisher>
+              <cerif:OrgUnit>
+                <cerif:Name xml:lang="en">International Assosiation for Engineering Geology (IAEG)</cerif:Name>
+              </cerif:OrgUnit>
+            </cerif:Publisher>
+          </cerif:Publishers>
+          <cerif:Keyword xml:lang="en">CPT</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">Soil variability</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">granular soil</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">particle size distribution</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">late-Pleistocene</cerif:Keyword>
+          <cerif:Keyword xml:lang="en">fluvial sand</cerif:Keyword>
+          <cerif:Abstract xml:lang="en">Understanding the geological and geotechnical characteristics of the shallow subsurface is crucial for engineering decisions in densely populated regions like the Netherlands. Urban areas are for a large part built on a complex stack of sand, clay, silt, gravel and organics that were deposited over the last hundreds of thousands of years under gradually subsiding tectonic conditions. One of these units, a fluvially deposited sand known as the Kreftenheye Formation, is widespread across the western part of the country and is vital for foundation design and groundwater dynamics. The Kreftenheye Formation is therefore well described by geotechnical and geological tests, yet integrating both types of data has rarely been done on a nationwide scale.&lt;br/&gt;&lt;br/&gt;This paper focuses on 76 pairs of Cone Penetration Tests and boreholes that include Kreftenheye, out of a full database of nearly 200 pairs from TNO - Geological Survey of the Netherlands, generally reaching depths up to 40 meters. The study reveals significant spatial variations and depositional patterns within the Kreftenheye Formation, illustrating how overlying or interlayered flood plain or soft channel lag sediments influences the response of the CPT. Furthermore, CPT response and borehole samples have helped with making geological distinctions between the upper, Weichselian part of the Kreftenheye Formation and the lower Saalian part, showing how integrating both datasets can give both geological and geotechnical insights.</cerif:Abstract>
+          <cerif:Status scheme="/dk/atira/pure/researchoutput/status">published</cerif:Status>
+          <cerif:PresentedAt>
+            <cerif:Event>
+              <cerif:Acronym>EUROENGEO 2024</cerif:Acronym>
+              <cerif:Name xml:lang="en">EUROENGEO 2024: 4th European Regional Conference of IAEG</cerif:Name>
+              <cerif:Place>Hotel Dubrovnik Palace</cerif:Place>
+              <cerif:Country>hr</cerif:Country>
+              <cerif:StartDate>2024-10-08</cerif:StartDate>
+              <cerif:EndDate>2024-10-12</cerif:EndDate>
+            </cerif:Event>
+          </cerif:PresentedAt>
+          <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+          <cerif:FileLocations>
+            <cerif:Medium>
+              <cerif:Type scheme="/dk/atira/pure/researchoutput/electronicversion/versiontype">publishersversion</cerif:Type>
+              <cerif:Title xml:lang="en">266.pdf</cerif:Title>
+              <cerif:URI>https://research.tudelft.nl/files/226566342/266.pdf</cerif:URI>
+              <cerif:MimeType>application/pdf</cerif:MimeType>
+              <cerif:Size>1107490</cerif:Size>
+              <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+            </cerif:Medium>
+          </cerif:FileLocations>
+        </cerif:Publication>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://www.openaire.eu/cerif-profile/1.2/ https://www.openaire.eu/schema/cris/current/openaire-cerif-profile.xsd">
+  <responseDate>2025-09-26T15:41:38Z</responseDate>
+  <request metadataPrefix="oai_cerif_openaire" verb="ListRecords" set="openaire_cris_publications"></request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>70a67af6-3897-4b33-bc8e-2238bc7ddbf0</identifier>
+        <datestamp>2025-06-06T05:49:13Z</datestamp>
+        <setSpec>openaire_cris_publications</setSpec>
+      </header>
+      <metadata>
+        <cerif:Publication xmlns:sc="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Service_Compatibility" xmlns:ar="http://purl.org/coar/access_right" xmlns:pubt="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types" xmlns:prot="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types" xmlns:funt="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types" xmlns:patt="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types" xmlns:cerif="https://www.openaire.eu/cerif-profile/1.2/" id="70a67af6-3897-4b33-bc8e-2238bc7ddbf0">
+          <pubt:Type xmlns:pure="https://pure.elsevier.com/schema/extensions/oai_cerif_openaire" pure:peerReviewed="true" pure:publicationCategory="/dk/atira/pure/researchoutput/category/scientific">http://purl.org/coar/resource_type/c_18cp</pubt:Type>
+          <cerif:Language>en</cerif:Language>
+          <cerif:Title xml:lang="en">New Experimental Device for the Visualisation of Fluid-Driven Cracks in Clays</cerif:Title>
+          <cerif:Subtitle xml:lang="en"></cerif:Subtitle>
+          <cerif:PublicationDate>2025</cerif:PublicationDate>
+          <cerif:DOI>10.1088/1755-1315/1480/1/012015</cerif:DOI>
+          <cerif:URL>https://research.tudelft.nl/en/publications/70a67af6-3897-4b33-bc8e-2238bc7ddbf0</cerif:URL>
+          <cerif:Authors>
+            <cerif:Author>
+              <cerif:Person id="4e9fd3e6-ccdc-4b64-9114-e484b1eae11a">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Liaudat</cerif:FamilyNames>
+                  <cerif:FirstNames>J.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="79b4666f-59d1-47ef-8317-7041f3c835a2">
+                  <cerif:Name xml:lang="en">Technische Universität Darmstadt</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="16e1dab5-3e91-43a0-9ab1-74a736945895">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Vardon</cerif:FamilyNames>
+                  <cerif:FirstNames>P.J.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="191d058b-a886-4cfb-9971-89c210de4840">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Hicks</cerif:FamilyNames>
+                  <cerif:FirstNames>M.A.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="71c44676-2f6c-4a22-b219-46ec8e4c6928">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Dieudonné</cerif:FamilyNames>
+                  <cerif:FirstNames>A.C.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+          </cerif:Authors>
+          <cerif:License scheme="/dk/atira/pure/core/document/licenses">cc_by</cerif:License>
+          <cerif:Abstract xml:lang="en">Gas-induced fracturing in liquid-saturated clay-rich materials presents challenges in understanding and predicting fracture behaviour, due to the complex mechanical and transport properties of clays and the compressibility of gas. This paper introduces a novel experimental device for visualising fluid-driven cracks in clays. The device allows for the induction and observation of two-dimensional cracks in clay-rich, low-permeability materials through the injection of gas or water. The experimental setup comprises precision instrumentation for measuring compression forces, displacement, and fluid pressure, along with high-resolution imaging capabilities. Preliminary tests with Helium gas injection into Boom clay samples demonstrate the device's ability to track fracture evolution. This innovative experimental tool offers insights into the mechanisms governing fluid-driven fractures in clay-rich materials and provides a means to validate numerical models.</cerif:Abstract>
+          <cerif:Status scheme="/dk/atira/pure/researchoutput/status">published</cerif:Status>
+          <cerif:PresentedAt>
+            <cerif:Event>
+              <cerif:Acronym>IS-Grenoble 2024</cerif:Acronym>
+              <cerif:Name xml:lang="en">5th International Symposium on Geomechanics from Micro to Macro</cerif:Name>
+              <cerif:Place>Maison MINATEC</cerif:Place>
+              <cerif:Country>fr</cerif:Country>
+              <cerif:StartDate>2024-09-23</cerif:StartDate>
+              <cerif:EndDate>2024-09-27</cerif:EndDate>
+            </cerif:Event>
+          </cerif:PresentedAt>
+          <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+          <cerif:FileLocations>
+            <cerif:Medium>
+              <cerif:Type scheme="/dk/atira/pure/researchoutput/electronicversion/versiontype">publishersversion</cerif:Type>
+              <cerif:Title xml:lang="en">Liaudat_2025_IOP_Conf._Ser._Earth_Environ._Sci._1480_012015.pdf</cerif:Title>
+              <cerif:URI>https://research.tudelft.nl/files/246054460/Liaudat_2025_IOP_Conf._Ser._Earth_Environ._Sci._1480_012015.pdf</cerif:URI>
+              <cerif:MimeType>application/pdf</cerif:MimeType>
+              <cerif:Size>1178981</cerif:Size>
+              <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+              <cerif:License scheme="/dk/atira/pure/core/document/licenses">cc_by</cerif:License>
+            </cerif:Medium>
+          </cerif:FileLocations>
+        </cerif:Publication>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>57afc962-0e0c-4d76-8ae9-5b9a9f3d8d97</identifier>
+        <datestamp>2022-07-19T05:25:20Z</datestamp>
+        <setSpec>openaire_cris_publications</setSpec>
+      </header>
+      <metadata>
+        <cerif:Publication xmlns:sc="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Service_Compatibility" xmlns:ar="http://purl.org/coar/access_right" xmlns:pubt="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types" xmlns:prot="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types" xmlns:funt="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types" xmlns:patt="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types" xmlns:cerif="https://www.openaire.eu/cerif-profile/1.2/" id="57afc962-0e0c-4d76-8ae9-5b9a9f3d8d97">
+          <pubt:Type xmlns:pure="https://pure.elsevier.com/schema/extensions/oai_cerif_openaire" pure:peerReviewed="true" pure:publicationCategory="/dk/atira/pure/researchoutput/category/scientific">http://purl.org/coar/resource_type/c_18cp</pubt:Type>
+          <cerif:Language>en</cerif:Language>
+          <cerif:Title xml:lang="en">Numerical modelling of discrete gas flow pathways in water saturated clay</cerif:Title>
+          <cerif:Subtitle xml:lang="en"></cerif:Subtitle>
+          <cerif:PublicationDate>2022</cerif:PublicationDate>
+          <cerif:DOI>10.1051/e3sconf/202020513008</cerif:DOI>
+          <cerif:URL>https://research.tudelft.nl/en/publications/57afc962-0e0c-4d76-8ae9-5b9a9f3d8d97</cerif:URL>
+          <cerif:Authors>
+            <cerif:Author>
+              <cerif:Person id="4e9fd3e6-ccdc-4b64-9114-e484b1eae11a">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Liaudat</cerif:FamilyNames>
+                  <cerif:FirstNames>J.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="71c44676-2f6c-4a22-b219-46ec8e4c6928">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Dieudonné</cerif:FamilyNames>
+                  <cerif:FirstNames>A.A.M.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="16e1dab5-3e91-43a0-9ab1-74a736945895">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Vardon</cerif:FamilyNames>
+                  <cerif:FirstNames>P.J.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+          </cerif:Authors>
+          <cerif:License scheme="/dk/atira/pure/core/document/licenses">cc_by</cerif:License>
+          <cerif:Status scheme="/dk/atira/pure/researchoutput/status">published</cerif:Status>
+          <cerif:PresentedAt>
+            <cerif:Event>
+              <cerif:Acronym>ICEGT 2020</cerif:Acronym>
+              <cerif:Name xml:lang="en">2nd International Conference on Energy Geotechnics</cerif:Name>
+              <cerif:Country>us</cerif:Country>
+              <cerif:StartDate>2022-04-10</cerif:StartDate>
+              <cerif:EndDate>2022-04-13</cerif:EndDate>
+            </cerif:Event>
+          </cerif:PresentedAt>
+          <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+          <cerif:FileLocations>
+            <cerif:Medium>
+              <cerif:Type scheme="/dk/atira/pure/researchoutput/electronicversion/versiontype">publishersversion</cerif:Type>
+              <cerif:Title xml:lang="en">e3sconf_icegt2020_13008.pdf</cerif:Title>
+              <cerif:URI>https://research.tudelft.nl/files/125932334/e3sconf_icegt2020_13008.pdf</cerif:URI>
+              <cerif:MimeType>application/pdf</cerif:MimeType>
+              <cerif:Size>2044443</cerif:Size>
+              <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+              <cerif:License scheme="/dk/atira/pure/core/document/licenses">cc_by</cerif:License>
+            </cerif:Medium>
+          </cerif:FileLocations>
+        </cerif:Publication>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>4f884ae9-fbd1-4129-8bf9-0efe67776a3c</identifier>
+        <datestamp>2024-07-27T06:21:57Z</datestamp>
+        <setSpec>openaire_cris_publications</setSpec>
+      </header>
+      <metadata>
+        <cerif:Publication xmlns:sc="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Service_Compatibility" xmlns:ar="http://purl.org/coar/access_right" xmlns:pubt="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types" xmlns:prot="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types" xmlns:funt="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types" xmlns:patt="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types" xmlns:cerif="https://www.openaire.eu/cerif-profile/1.2/" id="4f884ae9-fbd1-4129-8bf9-0efe67776a3c">
+          <pubt:Type xmlns:pure="https://pure.elsevier.com/schema/extensions/oai_cerif_openaire" pure:peerReviewed="true" pure:publicationCategory="/dk/atira/pure/researchoutput/category/scientific">http://purl.org/coar/resource_type/c_18cp</pubt:Type>
+          <cerif:Language>en</cerif:Language>
+          <cerif:Title xml:lang="en">Influence of spatial variability of shear strength parameters on reliability-based assessment of dykes</cerif:Title>
+          <cerif:Subtitle xml:lang="en"></cerif:Subtitle>
+          <cerif:PublicationDate>2019</cerif:PublicationDate>
+          <cerif:StartPage>153</cerif:StartPage>
+          <cerif:EndPage>160</cerif:EndPage>
+          <cerif:URL>https://research.tudelft.nl/en/publications/4f884ae9-fbd1-4129-8bf9-0efe67776a3c</cerif:URL>
+          <cerif:Authors>
+            <cerif:Author>
+              <cerif:Person id="785253fc-7df2-4b1c-abe8-8728a177f89f">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Varkey</cerif:FamilyNames>
+                  <cerif:FirstNames>Divya</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="191d058b-a886-4cfb-9971-89c210de4840">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Hicks</cerif:FamilyNames>
+                  <cerif:FirstNames>Michael A.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="16e1dab5-3e91-43a0-9ab1-74a736945895">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>Vardon</cerif:FamilyNames>
+                  <cerif:FirstNames>Philip J.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+            <cerif:Author>
+              <cerif:Person id="73f815a0-9c69-4f69-a42a-73f42bdf142e">
+                <cerif:PersonName>
+                  <cerif:FamilyNames>van den Eijnden</cerif:FamilyNames>
+                  <cerif:FirstNames>Abraham P.</cerif:FirstNames>
+                </cerif:PersonName>
+              </cerif:Person>
+              <cerif:Affiliation>
+                <cerif:OrgUnit id="811c0ae3-4bf0-4024-851f-9dcf64d35c13">
+                  <cerif:Acronym>CITG-GSE-GE</cerif:Acronym>
+                  <cerif:Name xml:lang="en">Geo-engineering</cerif:Name>
+                </cerif:OrgUnit>
+              </cerif:Affiliation>
+            </cerif:Author>
+          </cerif:Authors>
+          <cerif:Abstract xml:lang="en">The Dutch dyke network includes 14,000 km of regional dykes that are regularly assessed in order to reduce the risk of flooding. The current strategy for maintenance and/or upgrading of existing dykes is based on safety assessments using partial factors and reliability-based characteristic values of material properties, interpreted from Eurocode 7 (EC7). In this paper, an historic dyke in the Netherlands has been analysed for stability using two methods: (a) based only on the point statistics of the material properties, as is widely adopted in Dutch practice based on a simplified interpretation of EC7, and (b) based on both the point and spatial statistics of the material properties, using a probabilistic approach in line with the full requirements of EC7. The results of safety assessments by the two methods show that a consideration of the spatial variability leads to a narrower range of possible responses, and thereby to a higher computed factor of safety at the target reliability of 95%. Moreover, for the dyke section considered, it results in much reduced remedial action compared to that suggested as a consequence of using the simplified approach, and thereby to a more economic design and reduced environmental impact.</cerif:Abstract>
+          <cerif:Status scheme="/dk/atira/pure/researchoutput/status">published</cerif:Status>
+          <cerif:PresentedAt>
+            <cerif:Event>
+              <cerif:Acronym>eygec2019</cerif:Acronym>
+              <cerif:Name xml:lang="en">27th European Young Geotechnical Engineers Conference</cerif:Name>
+              <cerif:Place>Kefaluka Resort Hotel</cerif:Place>
+              <cerif:Country>tr</cerif:Country>
+              <cerif:StartDate>2019-09-26</cerif:StartDate>
+              <cerif:EndDate>2019-09-27</cerif:EndDate>
+            </cerif:Event>
+          </cerif:PresentedAt>
+          <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+          <cerif:FileLocations>
+            <cerif:Medium>
+              <cerif:Type scheme="/dk/atira/pure/researchoutput/electronicversion/versiontype">publishersversion</cerif:Type>
+              <cerif:Title xml:lang="en">Varkeyeygec.pdf</cerif:Title>
+              <cerif:URI>https://research.tudelft.nl/files/214521032/Varkeyeygec.pdf</cerif:URI>
+              <cerif:MimeType>application/pdf</cerif:MimeType>
+              <cerif:Size>514380</cerif:Size>
+              <ar:Access>http://purl.org/coar/access_right/c_abf2</ar:Access>
+            </cerif:Medium>
+          </cerif:FileLocations>
+        </cerif:Publication>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
