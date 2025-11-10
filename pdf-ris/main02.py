@@ -3,8 +3,8 @@ import re
 from pathlib import Path
 
 # === File setup ===
-pdf_path = Path(r"E:\XRZONE_Files\PDFReader\pdf-ris\samples\v1\Jitta Collectie Wat ons blijvend boeit.pdf")
-output_path = pdf_path.with_name("blocks_codes_clean.txt")
+pdf_path = Path(r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\samples\v1\Jitta Collectie Wat ons blijvend boeit.pdf")
+output_path = pdf_path.with_name("blocks_codes_clean_total.txt")
 
 # === Regex for codes ===
 code_pattern = re.compile(r"\b(83\d{2}\s?[A-Z]\s?\d{2}(?:-\d{2})?|Leeszaal)\b")
@@ -27,7 +27,7 @@ for page_num in range(start_page, end_page + 1):
 
     # === Group blocks by vertical proximity ===
     grouped_blocks = []
-    threshold = 5  # vertical distance in points
+    threshold = 2  # vertical distance in points , 5 default
     current_group = []
     last_y1 = None
 
