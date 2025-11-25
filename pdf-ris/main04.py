@@ -17,7 +17,7 @@ ocr_total_path = output_dir / f"{base_name}_total.txt"
 # OCR SETTINGS
 # ----------------------------
 OCR_DPI = 300
-TESSERACT_CONFIG = "--oem 3 --psm 6"
+TESSERACT_CONFIG = "--oem 3 --psm 12"
 
 POPPLER_PATH = r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\poppler-25.11.0\Library\bin"
 
