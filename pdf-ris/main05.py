@@ -25,8 +25,8 @@ POPPLER_PATH = r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\poppler-25.11.0\Lib
 # ----------------------------
 # PAGE RANGE
 # ----------------------------
-first_page = 22
-last_page = 24
+first_page = 14
+last_page = 341
 
 print(f"🔍 Converting PDF pages {first_page} to {last_page} to images...")
 if POPPLER_PATH:
