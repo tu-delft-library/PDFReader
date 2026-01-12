@@ -89,18 +89,40 @@ else:
 # ----------------------------
 # TITLE EXTRACTION
 # ----------------------------
-def extract_title(block_text):
+# def extract_title(block_text):
+#     words = block_text.split()
+#     title_words = []
+
+#     for w in words:
+#         clean = re.sub(r'[^A-Z0-9\-]', '', w)
+#         if clean and clean.isupper():
+#             title_words.append(w)
+#         else:
+#             break
+
+#     return " ".join(title_words).strip()
+
+def extract_title(block_text, threshold=0.7):
     words = block_text.split()
     title_words = []
 
     for w in words:
-        clean = re.sub(r'[^A-Z0-9\-]', '', w)
-        if clean and clean.isupper():
+        # Keep only letters for ratio check
+        letters = re.findall(r'[A-Za-z]', w)
+        if not letters:
+            break  # stop if word has no letters
+
+        # Count uppercase letters
+        upper_count = sum(1 for c in letters if c.isupper())
+        ratio = upper_count / len(letters)
+
+        if ratio >= threshold:
             title_words.append(w)
         else:
             break
 
     return " ".join(title_words).strip()
+
 
 # ----------------------------
 # BLOCK DETECTION
@@ -135,6 +157,11 @@ for i, match in enumerate(matches):
 
     # Extract title
     title = extract_title(block_text)
+
+    # --- REMOVE TITLE FROM START OF BLOCK TEXT ---
+    if title:
+        title_pattern = re.escape(title) + r'[\s\.\*]*'
+        block_text = re.sub(r'^' + title_pattern, '', block_text, count=1).strip()
 
     # Append current block
     blocks.append({
