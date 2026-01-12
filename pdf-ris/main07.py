@@ -172,3 +172,14 @@ with blocks_path.open("w", encoding="utf-8") as f:
 
 print(f"📦 Generated {len(blocks)} blocks")
 print(f"📄 Blocks saved to: {blocks_path}")
+
+# ----------------------------
+# WRITE CSV FILE
+# ----------------------------
+csv_path = output_dir / f"{base_name}_blocks.csv"
+
+# Convert blocks list of dicts to DataFrame
+df_blocks = pd.DataFrame(blocks, columns=["code", "author", "title", "text"])
+df_blocks.to_csv(csv_path, index=False, encoding="utf-8")
+
+print(f"📊 CSV saved: {csv_path}")
