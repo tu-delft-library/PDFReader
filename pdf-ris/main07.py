@@ -112,6 +112,11 @@ blocks = []
 for i, match in enumerate(matches):
     code = match.group()
 
+    # Block text
+    start_idx = match.end()
+    end_idx = matches[i + 1].start() if i + 1 < len(matches) else len(ocr_text)
+    block_text = ocr_text[start_idx:end_idx].strip()
+
     # Find author: last uppercase sequence before code
     before_code = ocr_text[:match.start()].rstrip()
     author_match = re.findall(r'([A-Z ,.\-\'*]+)[\.\*]?$', before_code)
@@ -121,13 +126,17 @@ for i, match in enumerate(matches):
     author = re.sub(r'^[^A-Z]+', '', author)
     author = re.sub(r'[.\*]+$', '', author)
 
-    # Block text
-    start_idx = match.end()
-    end_idx = matches[i + 1].start() if i + 1 < len(matches) else len(ocr_text)
-    block_text = ocr_text[start_idx:end_idx].strip()
+    # --- SUBTRACT AUTHOR FROM PREVIOUS BLOCK ---
+    if i > 0 and author:
+        prev_block = blocks[-1]
+        # Regex removes trailing whitespace/punctuation plus the author
+        pattern = re.escape(author) + r'[\s\.\*]*$'
+        prev_block["text"] = re.sub(pattern, '', prev_block["text"]).rstrip()
 
+    # Extract title
     title = extract_title(block_text)
 
+    # Append current block
     blocks.append({
         "code": code,
         "author": author,
