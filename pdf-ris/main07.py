@@ -89,19 +89,6 @@ else:
 # ----------------------------
 # TITLE EXTRACTION
 # ----------------------------
-# def extract_title(block_text):
-#     words = block_text.split()
-#     title_words = []
-
-#     for w in words:
-#         clean = re.sub(r'[^A-Z0-9\-]', '', w)
-#         if clean and clean.isupper():
-#             title_words.append(w)
-#         else:
-#             break
-
-#     return " ".join(title_words).strip()
-
 def extract_title(block_text, threshold=0.7):
     words = block_text.split()
     title_words = []
