@@ -110,6 +110,16 @@ for i, match in enumerate(matches):
     author_match = re.findall(r'([A-Z ,.\-\'*]+)[\.\*]?$', before_code)
     author = author_match[-1].strip() if author_match else ""
 
+    # --- AUTHOR CORRECTION ---
+    # remove leading dots, numbers, and spaces
+    author = re.sub(r'^[^A-Z]+', '', author)
+    # remove trailing punctuation
+    author = re.sub(r'[.\*]+$', '', author)
+    # # discard obviously bad matches
+    # if author.count(',') > 1 or len(author.split()) > 6:
+    #     author = ""
+
+
     # Block text
     start_idx = match.end()
     end_idx = matches[i + 1].start() if i + 1 < len(matches) else len(ocr_text)
