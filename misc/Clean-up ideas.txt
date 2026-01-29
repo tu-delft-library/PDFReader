@@ -1,0 +1,43 @@
+
+1)
+If the last letter of a title is a single "A", it is probably the first word of the info/text section
+
+2a)
+If the author field is empty and the title field contains a "," then probably the title value should be moved to the "author" field.
+
+2b)
+also if the tile is missing (either after or before implementation of 2a),
+the tile is probably the all caps part at the start of the of the info/text value. 
+Possibly preceeded by one, or a couple, non-cap characters, that confused the script. 
+
+i.e."a TRAGEDY OF KING LEAR"
+
+3) we could make strings of complete names of chapters and remove them from the SINGLE STRING.
+or perhaps have them integrated in the final result as a single block with no code. 
+(but maybe thats just clutter we dont need since chapter name doest show up once but shows on many pages?)
+
+i.e. FRANSE TAAL- EN LETTERKUNDE ALGEMENE WERKEN
+
+4)
+we could try to identify the codes we missed, either due to not incorporating rare ones, or due to imperfect OCR, and add them.
+These can be identiefied by looking for long all cap sections somewher in the middle of the info/text section (will have some false positives though)
+
+i.e.
+"Armhem, Van Loghum Slaterus, 1935-1937. 25 cm, 2 dln. HEERING, G. J. 8336 C Ol DE ZONDEVAL VAN HET CHRISTENDOM Een studie over Christendom, staat en oorlog; 4e dr. Utrecht, Bijleveld, 1953. 24 cm, 252 biz., lit.opgn."
+
+"Arnhem, Van Loghum Slaterus, 1940. 24 cm, 271 blz. FRANCISCUS VAN ASSISI-FRANZ VON ASSISI* 8341 8198 LEGENDEN UND LAUDE Hrsg. und Einl. von O. Karrer. Ziitrich, Manesse Verlag, 1945. 16 cm, 657 blz., 10 afbn., blz. 647-651 bibliogr., blz. 577-646 lit.opg. Manesse-Bibliothek der Weltliteratur. 152
+"
+
+"Nijmegen, Dekker en Van de Vegt, 1938. 25 cm, 12+127 bliz., lit.opgn. 8338 C O01 KAPPEYNE VAN DE COPPELLO, N. J. C. M. VERTEGENWOORDIGEND STELSEL 24 cm, 4+164 blz. Diss. Leiden, 1926."
+
+X5)
+i.e.
+code = 8333 A 17
+text = 2-183 *y EERSTE DEEL VANDEN SPIEGHEL DER ZEEVAERDT Van de navigatie der Westersche [...ezv...]
+
+the code is supposed to be "8333 A 172-183"
+maybe somthign with crosschekking the codes of both scans? probably not worth it...
+
+X6) (eds) in author 
+
+7) et, und, and in author
