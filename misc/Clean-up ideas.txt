@@ -2,10 +2,10 @@
 1)
 If the last letter of a title is a single "A", it is probably the first word of the info/text section
 
-2a)
+-2a)
 If the author field is empty and the title field contains a "," then probably the title value should be moved to the "author" field.
 
-2b)
+-2b)
 also if the tile is missing (either after or before implementation of 2a),
 the tile is probably the all caps part at the start of the of the info/text value. 
 Possibly preceeded by one, or a couple, non-cap characters, that confused the script. 
@@ -18,7 +18,7 @@ or perhaps have them integrated in the final result as a single block with no co
 
 i.e. FRANSE TAAL- EN LETTERKUNDE ALGEMENE WERKEN
 
-4)
+-4)
 we could try to identify the codes we missed, either due to not incorporating rare ones, or due to imperfect OCR, and add them.
 These can be identiefied by looking for long all cap sections somewher in the middle of the info/text section (will have some false positives though)
 
@@ -42,7 +42,7 @@ X6) (eds) in author
 
 X7) et, und, and in author
 
-8) 	In kolom 4 met de info/tekst kunnen we zoeken naar de term “biz.” en “bliz.”, en deze vervangen met de term “blz.”
+X8) 	In kolom 4 met de info/tekst kunnen we zoeken naar de term “biz.” en “bliz.”, en deze vervangen met de term “blz.”
 	Onnauwkeurige OCR; deze komt denk ik een paar honderd keer voor.
 
 	Minder vaak, maar vergelijkbaar:

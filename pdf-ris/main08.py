@@ -88,6 +88,19 @@ else:
     print(f"✅ OCR done. Saved to: {ocr_total_path}")
 
 # ----------------------------
+# OCR NORMALIZATION
+# ----------------------------
+
+# biz. / blz. → blz   (remove dot, normalize spelling)
+ocr_text = re.sub(r'\b(biz|blz)', 'blz', ocr_text)
+
+# afon. → afbn.
+ocr_text = re.sub(r'\bafon', 'afbn', ocr_text)
+
+# din. → dln.
+ocr_text = re.sub(r'\bdin\.', 'dln.', ocr_text)
+
+# ----------------------------
 # TITLE EXTRACTION
 # ----------------------------
 def extract_title(block_text, threshold=0.7):
