@@ -9,7 +9,7 @@ import re
 # ----------------------------
 # INPUT PDF
 # ----------------------------
-pdf_path = Path(r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\samples\v7\Jitta Collectie Wat ons blijvend boeit.pdf")
+pdf_path = Path(r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\samples\v8\Jitta Collectie Wat ons blijvend boeit.pdf")
 base_name = pdf_path.stem
 output_dir = pdf_path.parent
 ocr_total_path = output_dir / f"{base_name}_total.txt"
@@ -18,7 +18,8 @@ blocks_path = output_dir / f"{base_name}_blocks.txt"
 # ----------------------------
 # OCR SETTINGS
 # ----------------------------
-OCR_DPI = 300
+# OCR_DPI = 300
+OCR_DPI = 450
 TESSERACT_CONFIG = "--oem 3 --psm 12"
 POPPLER_PATH = r"E:\XRZONE_Files\PDFReader\PDFReader\pdf-ris\poppler-25.11.0\Library\bin"
 
@@ -129,8 +130,17 @@ for i, match in enumerate(matches):
 
     # Find author: last uppercase sequence before code
     before_code = ocr_text[:match.start()].rstrip()
-    # author_match = re.findall(r'([A-Z ,.\-\'*]+)[\.\*]?$', before_code)
-    author_match = re.findall(r'([A-Z][A-Z ,.\-\'*]+(?:\s*\([a-z\.]+\))?\s*\*?)$', before_code)
+    # author_match = re.findall(r'([A-Z][A-Z ,.\-\'*]+(?:\s*\([a-z\.]+\))?\s*\*?)$', before_code)
+    author_match = re.findall(
+    r'('
+    r'[A-Z][A-Z ,.\-\'*]+'                     # main uppercase structure
+    r'(?:\s+(?:und|en|and|&|et al\.|von|van|de|der)\s+[A-Z][A-Z ,.\-\'*]+)*'
+    r'(?:\s*\((?:ed|eds)\.\))?'                # (ed.) or (eds.)
+    r'\s*\*?'                                  # optional *
+    r')$',
+    before_code
+)
+
     author = author_match[-1].strip() if author_match else ""
 
     # --- AUTHOR CORRECTION ---

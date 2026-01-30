@@ -40,4 +40,15 @@ maybe somthign with crosschekking the codes of both scans? probably not worth it
 
 X6) (eds) in author 
 
-7) et, und, and in author
+X7) et, und, and in author
+
+8) 	In kolom 4 met de info/tekst kunnen we zoeken naar de term “biz.” en “bliz.”, en deze vervangen met de term “blz.”
+	Onnauwkeurige OCR; deze komt denk ik een paar honderd keer voor.
+
+	Minder vaak, maar vergelijkbaar:
+
+	“afon.”, “afobn.” en “afom.” vervangen met de term “afbn.”
+
+	“lit.opga”, “litopgn” en “lit-opgn” vervangen met de term “lit.opgn”
+
+	“din.” vervangen met de term “dln.” (delen)
